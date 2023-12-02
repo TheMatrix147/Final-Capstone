@@ -11,8 +11,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 2. Are there distinct sleep patterns among individuals experiencing different stress levels?
 
-### Project Tech Stack:
-
 # Dataset Descriptions
 
 ### Description:
