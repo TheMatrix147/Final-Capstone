@@ -1,4 +1,4 @@
-# Stress, Diet, Sleep Analysis
+# Stress And Sleep Analysis
 
 ### By Derek Smith
 
