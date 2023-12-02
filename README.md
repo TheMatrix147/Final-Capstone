@@ -23,53 +23,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ### Description:
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-Column
-Datatype
-Description
-person_id
-int64
- Identifier for each individual
-gender
-object
-Gender of person (Male/Female)
-age
-int64
-Age of person in years.
-occupation
-object
-Occupation or profession of person.
-sleep_duration
-float64
-Number of hours person sleeps per day.
-quality_of_sleep
-int64
-Subjective rating of the quality of sleep, ranging from 1 to 10.
-physical_activity_level
-int64
-Number of minutes person engages in physical activity daily.
-stress_level
-int64
-Subjective rating of stress level experienced by person, ranging from 1 to 10.
-bmi_category
 
-object
-BMI category of person (e.g., Underweight, Normal, Overweight)
-blood_pressure
-
-object
-
-
-Blood pressure measurement of person, indicated as systolic pressure over diastolic pressure.
-heart_rate
-int64
-Resting heart rate of person in beats per minute.
-daily_steps
-int64
-Number of steps person takes per day.
-sleep_disorder
-
-object
-Presence or absence of a sleep disorder in person (None, Insomnia, Sleep Apnea).
 
 
 
