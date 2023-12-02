@@ -5,7 +5,7 @@
 ## Project Overview Description:
 
 #### Project Purpose: 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+This project is intended to research the effects of stress on sleep duration and quality. 
 #### Background on Research Problem:
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 #### Existing Research: 
