@@ -22,17 +22,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ### sleep_health.csv source: https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset
 
 ### Description:
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 [Sleep Health and Lifestyle Dataset](https://github.com/TheMatrix147/Final-Capstone/blob/main/dataset_descriptions/sleep_health_dataset_description.ipynb)
  
-
-
-
 ### Find_correlation.csv source: https://www.kaggle.com/code/ghsouvik2000/finding-correlation-between-stress-and-sleep
 
 ### Description: 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+[Finding Correlation Dataset](https://github.com/TheMatrix147/Final-Capstone/blob/main/dataset_descriptions/finding_correlation_dataset_description.ipynb)
 
 # Exploratory Data Analysis
 
