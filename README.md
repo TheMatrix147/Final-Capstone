@@ -27,9 +27,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 | Column | Datatype | Description |
 | ---------| ---------| ---------|
-| person_id |  int64| Identifier for each individual |
-|  gender  |  object| Gender of person (Male/Female) |
-| age |  int64| Occupation or profession of person |
+| person_id | int64 | Identifier for each individual |
+|  gender  | object | Gender of person (Male/Female) |
+| age | int64 | Occupation or profession of person |
 
  
 ### Find_correlation.csv source: https://www.kaggle.com/code/ghsouvik2000/finding-correlation-between-stress-and-sleep
