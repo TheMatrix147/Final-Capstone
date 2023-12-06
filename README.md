@@ -26,7 +26,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 [Sleep Health and Lifestyle Dataset](https://github.com/TheMatrix147/Final-Capstone/blob/main/dataset_descriptions/sleep_health_dataset_description.ipynb)
 
 | Column | Datatype | Description |
-| ---------| ---------| ---------|
+| ---------| :---------:| ---------|
 | person_id | int64 | Identifier for each individual |
 |  gender  | object | Gender of person (Male/Female) |
 | age | int64 | Occupation or profession of person |
