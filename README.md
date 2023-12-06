@@ -24,6 +24,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ### Description:
 
 [Sleep Health and Lifestyle Dataset](https://github.com/TheMatrix147/Final-Capstone/blob/main/dataset_descriptions/sleep_health_dataset_description.ipynb)
+
+| Header 1 | Header 2 | Header 3 |
+| ---------| ---------| ---------|
+| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
+| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
+| Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
+
  
 ### Find_correlation.csv source: https://www.kaggle.com/code/ghsouvik2000/finding-correlation-between-stress-and-sleep
 
