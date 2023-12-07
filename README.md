@@ -29,17 +29,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 | ---------| :---------:| ---------|
 | person_id | int64 | Identifier for each individual |
 |  gender  | object | Gender of person (Male/Female) |
-| age | int64 | Occupation or profession of person |
-| occupation | object | Identifier for each individual |
-| sleep_duration   | float_64 | Gender of person (Male/Female) |
-| quality_of_sleep | int64 | Occupation or profession of person |
-| physical_activity_level | int64 | Identifier for each individual |
-|  stress_level  | int64 | Gender of person (Male/Female) |
-| bmi_category | object | Occupation or profession of person |
-| blood_pressure | object | Identifier for each individual |
-|  heart_rate  | int64 | Gender of person (Male/Female) |
-| daily_steps | int64 | Occupation or profession of person |
-| sleep_disorder | object | Occupation or profession of person |
+| age | int64 | Age of person in years |
+| occupation | object | Occupation or profession of person |
+| sleep_duration   | float_64 | Number of hours person sleeps per day |
+| quality_of_sleep | int64 | Subjective rating of the quality of sleep, ranging from 1 to 10 |
+| physical_activity_level | int64 | Number of minutes person engages in physical activity daily |
+|  stress_level  | int64 | Subjective rating of stress level experienced by person, ranging from 1 to 10 |
+| bmi_category | object | BMI category of person (e.g., Underweight, Normal, Overweight) |
+| blood_pressure | object | Blood pressure measurement of person, indicated as systolic pressure over diastolic pressure |
+|  heart_rate  | int64 | Resting heart rate of person in beats per minute |
+| daily_steps | int64 | Number of steps person takes per day |
+| sleep_disorder | object | Presence or absence of a sleep disorder in person (None, Insomnia, Sleep Apnea) |
 
  
 ### Find_correlation.csv source: https://www.kaggle.com/code/ghsouvik2000/finding-correlation-between-stress-and-sleep
