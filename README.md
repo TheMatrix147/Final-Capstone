@@ -30,6 +30,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 | person_id | int64 | Identifier for each individual |
 |  gender  | object | Gender of person (Male/Female) |
 | age | int64 | Occupation or profession of person |
+| occupation | object | Identifier for each individual |
+| sleep_duration   | float_64 | Gender of person (Male/Female) |
+| quality_of_sleep | int64 | Occupation or profession of person |
+| physical_activity_level | int64 | Identifier for each individual |
+|  stress_level  | int64 | Gender of person (Male/Female) |
+| bmi_category | object | Occupation or profession of person |
+| blood_pressure | object | Identifier for each individual |
+|  heart_rate  | int64 | Gender of person (Male/Female) |
+| daily_steps | int64 | Occupation or profession of person |
+| sleep_disorder | object | Occupation or profession of person |
 
  
 ### Find_correlation.csv source: https://www.kaggle.com/code/ghsouvik2000/finding-correlation-between-stress-and-sleep
