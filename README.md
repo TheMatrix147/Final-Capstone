@@ -50,10 +50,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 | Column | Datatype | Description |
 | ---------| :---------:| ---------|
-| snoring_rate | float_64 | The rate of person's snoring while sleeping |
-| respiration_rate  | float_64 | The rate of person's breathing while sleeping |
-| body_temperature | float_64 | The person's body temperature while sleeping  |
-| limb_movement | float_64 | The rate of person's limb movement during sleep |
+| snoring_rate | float_64 | Rate of person's snoring while sleeping |
+| respiration_rate  | float_64 | Rate of person's breathing while sleeping |
+| body_temperature | float_64 | Person's body temperature while sleeping  |
+| limb_movement | float_64 | Rate of person's limb movement during sleep |
 |  blood_oxygen  | float_64 | Person's blood oxygen levels while sleeping |
 | eye_movement | float_64 | Person's eye movement during sleep |
 | sleeping_hours | float_64 | Person's number of hours of sleep |
