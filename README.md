@@ -48,6 +48,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 [Finding Correlation Dataset](https://github.com/TheMatrix147/Final-Capstone/blob/main/dataset_descriptions/finding_correlation_dataset_description.ipynb)
 
+| Column | Datatype | Description |
+| ---------| :---------:| ---------|
+| snoring_rate | float_64 | The rate of person's snoring while sleeping |
+| respiration_rate  | float_64 | The rate of person's breathing while sleeping |
+| body_temperature | float_64 | The person's body temperature while sleeping  |
+| limb_movement | float_64 | The rate of person's limb movement during sleep |
+|  blood_oxygen  | float_64 | Person's blood oxygen levels while sleeping |
+| eye_movement | float_64 | Person's eye movement during sleep |
+| sleeping_hours | float_64 | Person's number of hours of sleep |
+|  heart_rate  | float_64 | Person's heart rate while asleep |
+| stress_level | int64 | Person's stress levels while sleeping (0 - low/normal, 1 – medium low, 2 - medium, 3 - medium high, 4 - high) |
+
+
 # Exploratory Data Analysis
 
 ## Summary Statistics
