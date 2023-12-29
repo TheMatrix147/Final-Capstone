@@ -9,7 +9,7 @@ This project is intended to research the effects of stress on sleep duration and
 #### Background on Research Problem:
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 #### Existing Research: 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Research was done by Kaggle.
 
 ## Analysis Questions:
 
