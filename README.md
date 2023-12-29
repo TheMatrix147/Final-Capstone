@@ -5,7 +5,7 @@
 ## Project Overview Description:
 
 #### Project Purpose: 
-This project is intended to research the effects of stress on sleep duration and quality. 
+This project is intended to research the effects of stress on sleep duration and quality, and to verify distinct sleeping patterns that can occur as a result of stress. 
 #### Background on Research Problem:
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 #### Existing Research: 
