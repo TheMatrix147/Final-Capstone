@@ -92,7 +92,9 @@ For both datasets, a simple linear regression was performed to determine if stre
 # Project Findings/Conclusion
 Overall, the results of this project suggest that stress plays a major role in one's daily life of sleep. Not only can very strong correlations be seen between an individual's stress level and sleep quality/duration and sleeping patterns, but also an actual cause-and-effect relationship between each. 
 
-Testing testing
+In discussing potential shortfalls of the project, if it were someone's goal to perform a regression analysis that more fully explains the cause of sleep disorders, he or she would potentially want to test more than just one independent variable. Sleep disorders can be caused by many different factors other than stress. Thus, the explanatory power of the regression models used in my analysis would likely be deficient. In the case of my simple linear regressions, I only used the one input variable, stress level. Other variables affecting sleep could be added, like physical activity level, obesity, mental disorders, etc. to improve the model. 
+
+Another point to consider for future analysis is to always work with raw data that is very clear in its metric labeling.
 
 
 
