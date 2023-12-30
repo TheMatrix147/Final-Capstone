@@ -7,9 +7,10 @@
 #### Project Purpose: 
 This project is intended to research the effects of stress on sleep duration and quality, and to verify distinct sleeping patterns that can occur as a result of stress. 
 #### Background on Research Problem:
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Many individuals suffer chronic symptoms of mild to severe insomnia, and this can be very disrupting to one's happiness, functionality, and
+quality of life. Insomnia can be experienced by anyone for a number of underlying reasons. This analysis will specifically focus on determining whether or not stress levels are a potential cause of sleep disorders like insomnia. 
 #### Existing Research: 
-Research was done by Kaggle.
+The datasets used in this analyis were sourced from kaggle.com, an open source dataset and data science platform. Research was done by the authors on several different factors that can influence sleep, including one's occupation, physical activity level, stress level, etc. In this analysis, particular interest is shown in the inluence stress levels can have on sleep. Research was also done to detect different sleeping patterns based on certain variables such as a person's snoring rate, respiration rate, eye movement, etc. 
 
 ## Analysis Questions:
 
@@ -64,20 +65,17 @@ Research was done by Kaggle.
 # Exploratory Data Analysis
 
 ## Summary Statistics
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Using PANDAS methods, I analyzed the summary statistics and data types for both datasets. Missing data was also checked for. Based on the summary statistics, most of the variables in each dataset seem to follow a roughly normal distribution, with a few exceptions where there might be a slight skew. For each variable, a boxplot was created to better observe the nature of the distribution in greater detail according to its interquartile range. 
 
 ## Basic Visuals
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+For the primary variables of concern in the first dataset, it was noted that sleep quality and duration decreased in a linear fashion as stress levels increased when the stress_level variable was on the horizontal axis. For major variables in the second dataset, the snoring rate, respiration rate, limb movement, eye movement, and heart rate all increased linearly, while blood_oxygen, body_temperature, and sleeping hours decreased linearly when the stress_level variable was on the horizontal axis. A scatterplot, KDE plot, and pairplot were all used to make these analyses. 
 
 # Data Wrangling 
 
+### Data Cleansing and Organization
+For this section, I 
+
 ### Feature Engineering
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-### Data Cleansing
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-### Data Organization
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 # Statistical Analysis
