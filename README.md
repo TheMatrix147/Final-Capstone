@@ -64,7 +64,7 @@ The datasets used in this analyis were sourced from kaggle.com, an open source d
 
 # Exploratory Data Analysis
 
-## Summary Statistics
+#### Summary Statistics
 Using PANDAS methods, I analyzed the summary statistics and data types for both datasets. Missing data was also checked for. Based on the summary statistics, most of the variables in each dataset seem to follow a roughly normal distribution, with a few exceptions where there might be a slight skew. For each variable, a boxplot was created to better observe the nature of the distribution in greater detail according to its interquartile range.
 
 #### Hypothesis Testing:
