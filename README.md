@@ -70,7 +70,7 @@ Using PANDAS methods, I analyzed the summary statistics and data types for both 
 #### Hypothesis Testing:
 To determine if a correlation existed between stress levels and sleep duration/quality, a hypothesis test was conducted using the pearsonr and spearmanr python methods. A null hypothesis and alternative hypothesis were formed for both the sleep duration and sleep quality variables. The results of the pearsonr and spearmanr methods indicated that a very strong correlation exists between stress levels and sleep duration/quality. Hence, the null hypothesis was rejected. 
 
-## Basic Visuals
+#### Basic Visuals
 For the primary variables of concern in the first dataset, it was noted that sleep quality and duration decreased in a linear fashion as stress levels increased when the stress level variable was on the horizontal axis. For major variables in the second dataset, the snoring rate, respiration rate, limb movement, eye movement, and heart rate all increased linearly, while blood oxygen, body temperature, and sleeping hours decreased linearly when the stress level variable was on the horizontal axis. A scatterplot, KDE plot, and pairplot were all used to make these analyses. 
 
 # Data Wrangling 
