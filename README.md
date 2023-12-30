@@ -68,7 +68,7 @@ The datasets used in this analyis were sourced from kaggle.com, an open source d
 Using PANDAS methods, I analyzed the summary statistics and data types for both datasets. Missing data was also checked for. Based on the summary statistics, most of the variables in each dataset seem to follow a roughly normal distribution, with a few exceptions where there might be a slight skew. For each variable, a boxplot was created to better observe the nature of the distribution in greater detail according to its interquartile range.
 
 #### Hypothesis Testing:
-To determine if a correlation existed between stress levels and sleep duration/quality, a hypothesis test was conducted using the pearsonr and spearmanr python methods. A null hypothesis and alternative hypothesis were formed for both the sleep duration and sleep quality variables. The results of the pearsonr and spearmanr methods indicated that a very strong correlation exists between stress levels and sleep duration/quality. Hence, the null hypothesis was rejected. 
+For the first dataset, the goal was to determine if a correlation existed between stress levels and sleep duration/quality, a hypothesis test was conducted using the pearsonr and spearmanr python methods. A null hypothesis and alternative hypothesis were formed for both the sleep duration and sleep quality variables. The results of the pearsonr and spearmanr methods indicated that a very strong correlation exists between stress levels and sleep duration/quality. For the second dataset, the objective was to see if a correlation existed between stress levels and other variables that formed distinct sleeping patterns such as faster heart rate, lower body temperture, lower blood oxygen levels, etc. Using the pearsonr and spearmanr methods again, the results indicated that a very strong correlation also exists between stress levels and these variables. Hence, the null hypotheses were rejected. 
 
 #### Basic Visuals
 For the primary variables of concern in the first dataset, it was noted that sleep quality and duration decreased in a linear fashion as stress levels increased when the stress level variable was on the horizontal axis. For major variables in the second dataset, the snoring rate, respiration rate, limb movement, eye movement, and heart rate all increased linearly, while blood oxygen, body temperature, and sleeping hours decreased linearly when the stress level variable was on the horizontal axis. A scatterplot, KDE plot, and pairplot were all used to make these analyses. 
@@ -84,12 +84,16 @@ For my first dataset, I used the one-hot encoding method/dummy variables to repl
 # Statistical Analysis
 
 #### Hypothesis Testing:
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+For the first dataset, I formulated a null hypothesis and alternative hypothesis based on determining whether or not a cause-and-effect relationship exists between stress levels and sleep quality/duration. For the second dataset, I created a null and alternative hypothesis based on determining whether or not a cause-and-effect relationship exists between stress levels and distinct sleeping patterns such as more rapid eye and limb movements, and decreasing body temperature and blood oxygen levels. 
 
 #### Regression Analysis:
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+For both datasets, a simple linear regression was performed to determine if stress levels really do have an effect on one's sleep quality/duration and sleeping patterns. After each regression, results for the model's r-squared, co-efficients, and p-value metrics were analyzed, all of which denoted for each regression that the models were significant and that stress levels indeed have an effect on the variables that were being tested. Thus, the null hypotheses were rejected. 
 
 # Project Findings/Conclusion
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Overall, the results of this project suggest that stress plays a major role in one's daily life of sleep. Not only can very strong correlations be seen between an individual's stress level and sleep quality/duration and sleeping patterns, but also an actual cause-and-effect relationship between each. 
+
+Testing testing
+
+
 
 
