@@ -94,7 +94,7 @@ Overall, the results of this project suggest that stress plays a major role in o
 
 In discussing potential shortfalls of the project, if it were someone's goal to perform a regression analysis that more fully explains the cause of sleep disorders, he or she would potentially want to test more than just one independent variable. Sleep disorders can be caused by many different factors other than stress. Thus, the explanatory power of the regression models used in my analysis would likely be deficient. In the case of my simple linear regressions, I only used the one input variable, stress level. Other variables affecting sleep could be added, like physical activity level, obesity, mental disorders, etc. to improve the model. 
 
-Another point to consider for future analysis is to always work with raw data that is very clear in its metric labeling.
+Another point to consider for future analysis is to always work with complete information on the raw data used. Specifically, it is important that the data analyst knows how each variable is being measured based on the metrics provided. For example, if the variable being analyzed is eye movement, it should be clear that the activity is being measured in Hz (hertz). Or in the case of heart rate, the appropriate metric would be bpm (beats per minute). This will help to avoid any confusion or innacuracy in the analysis. In the case of the dataset used to identify distinct sleeping patterns in individuals experiencing different stress levels, no information was provided by the authors on the specific metrics that were being used for each variable. In the future, it will be better to work with a dataset that provides these metrics. 
 
 
 
