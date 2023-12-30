@@ -65,7 +65,10 @@ The datasets used in this analyis were sourced from kaggle.com, an open source d
 # Exploratory Data Analysis
 
 ## Summary Statistics
-Using PANDAS methods, I analyzed the summary statistics and data types for both datasets. Missing data was also checked for. Based on the summary statistics, most of the variables in each dataset seem to follow a roughly normal distribution, with a few exceptions where there might be a slight skew. For each variable, a boxplot was created to better observe the nature of the distribution in greater detail according to its interquartile range. 
+Using PANDAS methods, I analyzed the summary statistics and data types for both datasets. Missing data was also checked for. Based on the summary statistics, most of the variables in each dataset seem to follow a roughly normal distribution, with a few exceptions where there might be a slight skew. For each variable, a boxplot was created to better observe the nature of the distribution in greater detail according to its interquartile range.
+
+#### Hypothesis Testing:
+To determine if a correlation existed between stress levels and sleep duration/quality, a hypothesis test was conducted using the pearsonr and spearmanr python methods. A null hypothesis and alternative hypothesis were formed for both the sleep duration and sleep quality variables. The results of the pearsonr and spearmanr methods indicated that a very strong correlation exists between stress levels and sleep duration/quality. Hence, the null hypothesis was rejected. 
 
 ## Basic Visuals
 For the primary variables of concern in the first dataset, it was noted that sleep quality and duration decreased in a linear fashion as stress levels increased when the stress level variable was on the horizontal axis. For major variables in the second dataset, the snoring rate, respiration rate, limb movement, eye movement, and heart rate all increased linearly, while blood oxygen, body temperature, and sleeping hours decreased linearly when the stress level variable was on the horizontal axis. A scatterplot, KDE plot, and pairplot were all used to make these analyses. 
@@ -76,14 +79,13 @@ For the primary variables of concern in the first dataset, it was noted that sle
 For this section, I checked for any punctuation or spelling errors in column names, or for column names that needed to be made lowercase and snake case and changed those accordingly. I scanned for variables and data types that weren't matching and changed those data types to the correct ones. I checked for any missing values and filled those using the variable's mode. I also checked for outliers by creating boxplot visualizations and applying the zscore method. I ensured that both datasets followed a Tidy Data format. 
 
 ### Feature Engineering
-For my first dataset, I used the one-hot encoding method/dummy variables to replace all string values with numerical values and thus re-express the categorical variables. 
+For my first dataset, I used the one-hot encoding method/dummy variables to replace all nominal categories. This resulted in several new columns with boolean values in integer form. For my second dataset, no categorical variables needed to be re-expressed since all of the variables were quantitative. 
 
 # Statistical Analysis
 
 #### Hypothesis Testing:
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-#### Correlations:
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
 #### Regression Analysis:
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 
