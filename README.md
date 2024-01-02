@@ -16,7 +16,9 @@ The datasets used in this analyis were sourced from kaggle.com, an open source d
 
 1. Is there a correlation between stress levels and sleep duration/quality?
 
-2. Are there distinct sleep patterns among individuals experiencing different stress levels?
+2. Are there distinct sleeping patterns among individuals experiencing different stress levels?
+
+3. Is there a cause-and-effect relationship between stress levels and sleep?
 
 # Dataset Descriptions
 
