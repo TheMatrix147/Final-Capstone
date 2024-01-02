@@ -10,7 +10,7 @@ This project is intended to research the correlations and effects of stress on s
 Many individuals suffer chronic symptoms of mild to severe insomnia, and this can be very disrupting to one's happiness, functionality, and
 quality of life. Insomnia can be experienced by anyone for a number of underlying reasons. This analysis will specifically focus on determining whether or not stress levels are a potential cause of sleep disorders like insomnia. 
 #### Existing Research: 
-The datasets used in this analyis were sourced from kaggle.com, an open source dataset and data science platform. Research was done by the authors on several different factors that can influence sleep, including one's occupation, physical activity level, stress level, etc. In this analysis, particular interest is shown in the influence stress levels can have on sleep. Research was also done to detect different sleeping patterns based on certain variables such as a person's snoring rate, respiration rate, eye movement, etc. 
+The datasets used in this analysis were sourced from kaggle.com, an open source dataset and data science platform. Research was done by the authors on several different factors that can influence sleep, including one's occupation, physical activity level, stress level, etc. In this analysis, particular interest is shown in the influence stress levels can have on sleep. Research was also done to detect different sleeping patterns based on certain variables such as a person's snoring rate, respiration rate, eye movement, etc. 
 
 ## Analysis Questions:
 
