@@ -5,7 +5,7 @@
 ## Project Overview Description:
 
 #### Project Purpose: 
-This project is intended to research the effects of stress on sleep duration and quality, and to verify distinct sleeping patterns that can occur as a result of stress. 
+This project is intended to research the correlations and effects of stress on sleep duration and quality, and to verify distinct sleeping patterns that can occur as a result of stress. 
 #### Background on Research Problem:
 Many individuals suffer chronic symptoms of mild to severe insomnia, and this can be very disrupting to one's happiness, functionality, and
 quality of life. Insomnia can be experienced by anyone for a number of underlying reasons. This analysis will specifically focus on determining whether or not stress levels are a potential cause of sleep disorders like insomnia. 
